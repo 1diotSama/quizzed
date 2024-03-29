@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel = "stylesheet" href="css/home.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QuizzEd!</title>
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+             <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div class = "header">
+            <div class ="container">
+                <img class = "logo-header" src="img/logo.png" >
+
+                <img class = "menu" id = "mobile-cta" src="img/hamburger.svg" alt="Open Nav"  style="width:50px;">
+                
+                <nav class="menuu">
+                    <img class= "exit "id = "mobile-exit"src="img/x.svg" alt="Close" style="width:50px;">
+                    <div class = "play-button-div">
+                    <p class="play-button">Play!</p>
+                    <div class = "play-button-div">
+                        
+                    <div class="right-header">
+                        <p class="login-button">Login</p>
+                        <p class="signup-button">Sign up</p>
+                    </div>
+
+                </nav>
+            </div>
+
+        </div>
+
+        <div class = "hero">
+            <img class = "logo-hero" src="img/logo.png" style="width:100px;">
+            <p class="catchphrase">Fucking catchy catchphrase! Quizzed!</p>
+        </div>
+
+        <div class = "intro">
+            <p class = "question">How does Quizzed Work?</p>
+            <div class="intro-container">
+                <div class = "box">
+                    <img class = "img" src="img/logo.png">
+                    <p class = "title">Play!</p>
+                    <p class = "description">Test your general knowledge by answering the quiz made by other quizzlers and premade quiz</p>
+                </div>
+                <div class = "box">
+                    <img class = "img" src="img/logo.png" >
+                    <p class = "title">Create!</p>
+                    <p class = "description">Create quizzes with ease!</p>
+                </div>
+                <div class = "box">
+                    <img class = "img" src="img/logo.png" >
+
+                        <p class = "title">Level Up</p>
+                        <p class = "description">Level up to unlock premade quizzes, creation of quiz and show it off to other quizzlers</p>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div>
+            <p class = "question2">Why QuizzEd?</p>
+
+            <div class="reasons">
+
+                <div class="reason-box-1">
+                    <div class = "reason-box">
+                        <div class = "reason-box-top">
+                            <p class = "reason-title">Reason #1</p>
+                        </div>
+                        <div class = "reason-box-bottom">
+                            <p class = "reason-description">Reason #1 description blah blah blah</p>
+                        </div>
+                    </div>
+
+                    <div class = "reason-box">
+                        <div class = "reason-box-top">
+                            <p class = "reason-title">Reason #1</p>
+                        </div>
+                        <div class = "reason-box-bottom">
+                            <p class = "reason-description">Reason #1 description blah blah blah</p>
+                        </div>
+                    </div>
+                    
+                    <div class = "reason-box">
+                        <div class = "reason-box-top">
+                            <p class = "reason-title">Reason #1</p>
+                        </div>
+                        <div class = "reason-box-bottom">
+                            <p class = "reason-description">Reason #1 description blah blah blah</p>
+                        </div>
+                    </div>
+
+            </div>
+
+
+            <div class="reason-box-2">
+                <div class = "reason-box">
+                    <div class = "reason-box-top">
+                        <p class = "reason-title">Reason #1</p>
+                    </div>
+                    <div class = "reason-box-bottom">
+                        <p class = "reason-description">Reason #1 description blah blah blah</p>
+                    </div>
+                </div>
+
+                
+                <div class = "reason-box">
+                    <div class = "reason-box-top">
+                        <p class = "reason-title">Reason #1</p>
+                    </div>
+                    <div class = "reason-box-bottom">
+                        <p class = "reason-description">Reason #1 description blah blah blah</p>
+                    </div>
+                </div>
+
+                
+                <div class = "reason-box">
+                    <div class = "reason-box-top">
+                        <p class = "reason-title">Reason #1</p>
+                    </div>
+                    <div class = "reason-box-bottom">
+                        <p class = "reason-description">Reason #1 description blah blah blah</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <script>
+
+            const mobileBtn = document.getElementById('mobile-cta')
+            nav = document.querySelector('nav')
+            mobileBtnExit = document.getElementById('mobile-exit');
+
+            mobileBtn.addEventListener('click',() =>{
+                nav.classList.add('menu-btn');
+            })
+
+            mobileBtnExit.addEventListener('click',() =>{
+                nav.classList.remove('menu-btn');
+            })
+        </script>
+    </body>
+</html>
